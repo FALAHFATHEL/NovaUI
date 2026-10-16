@@ -3,13 +3,13 @@
 > A modern, professional UI control library for **Windows Forms (.NET Framework 4.7.2+)**
 > 50+ customizable controls with smooth animations, full RTL/LTR support, a built-in theme system, and a native **Icon Gallery** with **9,000+ icons**.
 
-[![.NET Framework](https://img.shields.io/badge/.NET%20Framework-4.7.2%2B-blue)](https://dotnet.microsoft.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-1.0.0-orange)]()
-[![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey)]()
-[![Icons](https://img.shields.io/badge/Icons-9000%2B-purple)]()
-[![NuGet](https://img.shields.io/nuget/v/NovaUI.WinForms.svg)](https://www.nuget.org/packages/NovaUI.WinForms)
-[![NuGet Downloads](https://img.shields.io/nuget/dt/NovaUI.WinForms.svg)](https://www.nuget.org/packages/NovaUI.WinForms)
+[![.NET Framework](https://img.shields.io/badge/.NET%204.7.2%2B-%23512BD4?style=for-the-badge&logo=dotnet&logoColor=white)](https://dotnet.microsoft.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-%232ea44f?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](LICENSE)
+[![Version](https://img.shields.io/badge/v1.0.0-%23007ACC?style=for-the-badge&logo=semantic-release&logoColor=white)]()
+[![Platform](https://img.shields.io/badge/Windows-%230078D4?style=for-the-badge&logo=windows&logoColor=white)]()
+[![Icons](https://img.shields.io/badge/9000%2B_Icons-%238957E5?style=for-the-badge&logo=feather&logoColor=white)]()
+[![NuGet](https://img.shields.io/nuget/v/NovaUI.WinForms?style=for-the-badge&logo=nuget&logoColor=white&color=%23004880)](https://www.nuget.org/packages/NovaUI.WinForms)
+[![NuGet Downloads](https://img.shields.io/nuget/dt/NovaUI.WinForms?style=for-the-badge&logo=nuget&logoColor=white&color=%230e8a16)](https://www.nuget.org/packages/NovaUI.WinForms)
 
 ![Banner](docs/images/Banner.png)
 ---
