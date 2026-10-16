@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package >
+	<metadata>
+		<id>NovaUI.WinForms</id>
+		<version>1.0.0</version>
+		<title>NovaUI - Modern WinForms Controls &amp; Icons</title>
+		<authors>FALAH FATHEL</authors>
+		<owners>FALCON</owners>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<license type="expression">MIT</license>
+		<projectUrl>https://github.com/FALAHFATHEL/NovaUI</projectUrl>
+		<repository type="git" url="https://github.com/FALAHFATHEL/NovaUI" />
+		<icon>icon.png</icon>
+		<readme>README.md</readme>
+		<description>
+			Modern WinForms control library with 9,000+ embedded icons across 26 icon packs. Features rounded corners, RTL support, gradients, and a built-in icon picker that works directly in the Visual Studio Designer.
+		</description>
+		<releaseNotes>
+			First release of NovaUI v1.0.0.
+		</releaseNotes>
+		<copyright>Copyright © 2026</copyright>
+		<tags>winforms;controls;icons;ui;dotnet;csharp;rtl;arabic</tags>
+
+		<dependencies>
+			<group targetFramework="net48" />
+		</dependencies>
+	</metadata>
+
+	<files>
+		<file src="bin\Release\NovaUI.dll" target="lib\net48" />
+		<file src="README.md" target="" />
+		<file src="icon.png" target="" />
+	</files>
+</package>

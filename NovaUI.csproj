@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E01F3291-CEB9-45ED-A91F-7B5B7F8D4469}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NovaUI</RootNamespace>
+    <AssemblyName>NovaUI</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>NovaUI.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controls\Buttons\NovaButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Buttons\NovaToggleSwitch.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Data\NovaDataGridView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Display\NovaIcon.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Display\NovaPicture.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Helpers\Animator.cs" />
+    <Compile Include="Controls\Helpers\Gfx.cs" />
+    <Compile Include="Controls\Inputs\NovaCheckBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Inputs\NovaTextBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Display\NovaAlert.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Display\NovaAvatar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Display\NovaBadge.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Display\NovaChip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Dialogs\NovaColorPicker.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Panels\NovaCard.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Data\NovaChart.cs" />
+    <Compile Include="Controls\Display\NovaCircularProgress.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Inputs\NovaComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Dialogs\NovaContextMenuStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Form\NovaCustomForm.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Inputs\NovaDatePicker.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Dialogs\NovaFilePicker.cs" />
+    <Compile Include="Controls\Data\NovaListBox.cs" />
+    <Compile Include="Controls\Feedback\NovaLoadingSpinner.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Feedback\NovaModalDialog.cs" />
+    <Compile Include="Controls\Buttons\NovaRadioButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Inputs\NovaMultiSelect.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Inputs\NovaNumberBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Feedback\NovaProgressBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Inputs\NovaSearchBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Layout\NovaSideBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Feedback\NovaToast.cs" />
+    <Compile Include="Controls\Inputs\NovaSlider.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Layout\NovaStatusBar.cs" />
+    <Compile Include="Controls\Inputs\NovaTagInput.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Layout\NovaToolBar.cs" />
+    <Compile Include="Controls\Data\NovaTreeList.cs" />
+    <Compile Include="Controls\Layout\SidebarItem.cs" />
+    <Compile Include="IconConstant\ArrowIcons.cs" />
+    <Compile Include="IconConstant\Brands2Icons.cs" />
+    <Compile Include="IconConstant\BrandsIcons.cs" />
+    <Compile Include="IconConstant\BuildingIcons.cs" />
+    <Compile Include="IconConstant\BusinessIcons.cs" />
+    <Compile Include="IconConstant\CommunicationIcons.cs" />
+    <Compile Include="IconConstant\DesignIcons.cs" />
+    <Compile Include="IconConstant\DevelopmentIcons.cs" />
+    <Compile Include="IconConstant\DevicesIcons.cs" />
+    <Compile Include="IconConstant\DocumentIcons.cs" />
+    <Compile Include="IconConstant\EditorIcons.cs" />
+    <Compile Include="IconConstant\FALCON2ICONS.cs" />
+    <Compile Include="IconConstant\FALCONICONS.cs" />
+    <Compile Include="IconConstant\FilledIcons.cs" />
+    <Compile Include="IconConstant\FinanceIcons.cs" />
+    <Compile Include="IconConstant\FoodIcons.cs" />
+    <Compile Include="IconConstant\GeneralV1Icons.cs" />
+    <Compile Include="IconConstant\GeneralV2Icons.cs" />
+    <Compile Include="IconConstant\LogosIcons.cs" />
+    <Compile Include="IconConstant\MapIcons.cs" />
+    <Compile Include="IconConstant\MediaIcons.cs" />
+    <Compile Include="IconConstant\MedicalIcons.cs" />
+    <Compile Include="IconConstant\OtherIcons.cs" />
+    <Compile Include="IconConstant\SportsIcons.cs" />
+    <Compile Include="IconConstant\SystemIcons.cs" />
+    <Compile Include="IconConstant\UsersIcons.cs" />
+    <Compile Include="IconConstant\WeatherIcons.cs" />
+    <Compile Include="IconGlyph\FontManager.cs" />
+    <Compile Include="IconGlyph\IconCard.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="IconGlyph\IconGlyphEditor.cs" />
+    <Compile Include="IconGlyph\IconPackRegistery.cs" />
+    <Compile Include="IconGlyph\IconPickerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IconGlyph\IconPickerForm.Designer.cs">
+      <DependentUpon>IconPickerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IconGlyph\IIconPack.cs" />
+    <Compile Include="IconGlyph\VirtualIconGrid.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="IconPacks\ArrowIconPack.cs" />
+    <Compile Include="IconPacks\Brands2IconPack.cs" />
+    <Compile Include="IconPacks\BrandsIconPack.cs" />
+    <Compile Include="IconPacks\BuildingIconPack.cs" />
+    <Compile Include="IconPacks\BusinessIconPack.cs" />
+    <Compile Include="IconPacks\CommunicationIconPack.cs" />
+    <Compile Include="IconPacks\DesignIconPack.cs" />
+    <Compile Include="IconPacks\DevelopmentIconPack.cs" />
+    <Compile Include="IconPacks\DevicesIconPack.cs" />
+    <Compile Include="IconPacks\DocumentIconPack.cs" />
+    <Compile Include="IconPacks\EditorIconPack.cs" />
+    <Compile Include="IconPacks\FALCON2Pack.cs" />
+    <Compile Include="IconPacks\FALCONPack.cs" />
+    <Compile Include="IconPacks\FilledIconPack.cs" />
+    <Compile Include="IconPacks\FinanceIconPack.cs" />
+    <Compile Include="IconPacks\FoodIconPack.cs" />
+    <Compile Include="IconPacks\GeneralV1IconPack.cs" />
+    <Compile Include="IconPacks\GeneralV2IconPack.cs" />
+    <Compile Include="IconPacks\LogosIconPack.cs" />
+    <Compile Include="IconPacks\MapIconPack.cs" />
+    <Compile Include="IconPacks\MediaIconPack.cs" />
+    <Compile Include="IconPacks\MedicalIconPack.cs" />
+    <Compile Include="IconPacks\OtherIconPack.cs" />
+    <Compile Include="IconPacks\SportsIconPack.cs" />
+    <Compile Include="IconPacks\SystemIconPack.cs" />
+    <Compile Include="IconPacks\UsersIconPack.cs" />
+    <Compile Include="IconPacks\WeatherIconPack.cs" />
+    <Compile Include="IconSystem\EmbeddedFontLoader.cs" />
+    <Compile Include="IconSystem\IconPackBase.cs" />
+    <Compile Include="Controls\Panels\NovaPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="IconFonts\Arrows_icons.ttf" />
+    <EmbeddedResource Include="IconFonts\Brands.ttf" />
+    <EmbeddedResource Include="IconFonts\Brands2_icons.ttf" />
+    <EmbeddedResource Include="IconFonts\Buildings_icons.ttf" />
+    <EmbeddedResource Include="IconFonts\Business_icons.ttf" />
+    <EmbeddedResource Include="IconFonts\Communication_icons.ttf" />
+    <EmbeddedResource Include="IconFonts\Design_icons.ttf" />
+    <EmbeddedResource Include="IconFonts\Development_icons.ttf" />
+    <EmbeddedResource Include="IconFonts\Devices_icons.ttf" />
+    <EmbeddedResource Include="IconFonts\Documents_icons.ttf" />
+    <EmbeddedResource Include="IconFonts\Editor_icons.ttf" />
+    <EmbeddedResource Include="IconFonts\FALCON_Icons_Collection_Pack_1.ttf" />
+    <EmbeddedResource Include="IconFonts\FALCON_Icons_Collection_Pack_2.ttf" />
+    <EmbeddedResource Include="IconFonts\Filled_icons.ttf" />
+    <EmbeddedResource Include="IconFonts\Finance_icons.ttf" />
+    <EmbeddedResource Include="IconFonts\Food_icons.ttf" />
+    <EmbeddedResource Include="IconFonts\Game_Sports_icons.ttf" />
+    <EmbeddedResource Include="IconFonts\General-Purpose.ttf" />
+    <EmbeddedResource Include="IconFonts\General_icons2.ttf" />
+    <EmbeddedResource Include="IconFonts\Logos_icons.ttf" />
+    <EmbeddedResource Include="IconFonts\Map_icons.ttf" />
+    <EmbeddedResource Include="IconFonts\Media_icons.ttf" />
+    <EmbeddedResource Include="IconFonts\Medical_icons.ttf" />
+    <EmbeddedResource Include="IconFonts\Other_icons.ttf" />
+    <EmbeddedResource Include="IconFonts\System_icons.ttf" />
+    <EmbeddedResource Include="IconFonts\Users_icons.ttf" />
+    <EmbeddedResource Include="IconFonts\Weather_icons.ttf" />
+    <EmbeddedResource Include="IconGlyph\IconPickerForm.resx">
+      <DependentUpon>IconPickerForm.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icon.png" />
+    <Content Include="NovaUI.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NovaUI.nuspec" />
+    <None Include="README.md" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
