@@ -11,6 +11,7 @@
 [![NuGet](https://img.shields.io/nuget/v/NovaUI.WinForms.svg)](https://www.nuget.org/packages/NovaUI.WinForms)
 [![NuGet Downloads](https://img.shields.io/nuget/dt/NovaUI.WinForms.svg)](https://www.nuget.org/packages/NovaUI.WinForms)
 
+![Banner](docs/images/Banner.png)
 ---
 
 ## Table of Contents
